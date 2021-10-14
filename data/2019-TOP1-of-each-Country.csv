@@ -1,0 +1,205 @@
+Institution Name,Country,Institute_age,Overall_Score,Continent,Pivot_Field_Names,Pivot_Field_Values
+UNIVERSIDAD DE BUENOS AIRES,Argentina,5,66.2,South America,Academic Reputation,86.1
+UNIVERSIDAD DE BUENOS AIRES,Argentina,5,66.2,South America,Citations per Faculty,2.5
+UNIVERSIDAD DE BUENOS AIRES,Argentina,5,66.2,South America,Employer Reputation,91.6
+UNIVERSIDAD DE BUENOS AIRES,Argentina,5,66.2,South America,Faculty Student,79.1
+UNIVERSIDAD DE BUENOS AIRES,Argentina,5,66.2,South America,International Faculty,53.4
+UNIVERSIDAD DE BUENOS AIRES,Argentina,5,66.2,South America,International Students,68.5
+AUSTRALIAN NATIONAL UNIVERSITY (ANU),Australia,4,84.4,Oceania,Academic Reputation,97.1
+AUSTRALIAN NATIONAL UNIVERSITY (ANU),Australia,4,84.4,Oceania,Citations per Faculty,87.8
+AUSTRALIAN NATIONAL UNIVERSITY (ANU),Australia,4,84.4,Oceania,Employer Reputation,82.6
+AUSTRALIAN NATIONAL UNIVERSITY (ANU),Australia,4,84.4,Oceania,Faculty Student,47.9
+AUSTRALIAN NATIONAL UNIVERSITY (ANU),Australia,4,84.4,Oceania,International Faculty,100
+AUSTRALIAN NATIONAL UNIVERSITY (ANU),Australia,4,84.4,Oceania,International Students,99.5
+UNIVERSITÄT WIEN,Austria,5,46.4,Europe,Academic Reputation,60.8
+UNIVERSITÄT WIEN,Austria,5,46.4,Europe,Citations per Faculty,17.4
+UNIVERSITÄT WIEN,Austria,5,46.4,Europe,Employer Reputation,35.7
+UNIVERSITÄT WIEN,Austria,5,46.4,Europe,Faculty Student,26.6
+UNIVERSITÄT WIEN,Austria,5,46.4,Europe,International Faculty,98.4
+UNIVERSITÄT WIEN,Austria,5,46.4,Europe,International Students,93.4
+KATHOLIEKE UNIVERSITEIT LEUVEN,Belgium,5,63.4,Europe,Academic Reputation,76.5
+KATHOLIEKE UNIVERSITEIT LEUVEN,Belgium,5,63.4,Europe,Citations per Faculty,87.1
+KATHOLIEKE UNIVERSITEIT LEUVEN,Belgium,5,63.4,Europe,Employer Reputation,60.8
+KATHOLIEKE UNIVERSITEIT LEUVEN,Belgium,5,63.4,Europe,Faculty Student,13.4
+KATHOLIEKE UNIVERSITEIT LEUVEN,Belgium,5,63.4,Europe,International Faculty,89.6
+KATHOLIEKE UNIVERSITEIT LEUVEN,Belgium,5,63.4,Europe,International Students,39.8
+UNIVERSIDADE DE SÃO PAULO (USP),Brazil,4,55.5,South America,Academic Reputation,87.2
+UNIVERSIDADE DE SÃO PAULO (USP),Brazil,4,55.5,South America,Citations per Faculty,30.7
+UNIVERSIDADE DE SÃO PAULO (USP),Brazil,4,55.5,South America,Employer Reputation,80.4
+UNIVERSIDADE DE SÃO PAULO (USP),Brazil,4,55.5,South America,Faculty Student,28.2
+UNIVERSIDADE DE SÃO PAULO (USP),Brazil,4,55.5,South America,International Faculty,9.6
+UNIVERSIDADE DE SÃO PAULO (USP),Brazil,4,55.5,South America,International Students,4.3
+UNIVERSITY OF TORONTO,Canada,5,83,North America,Academic Reputation,98.7
+UNIVERSITY OF TORONTO,Canada,5,83,North America,Citations per Faculty,47.6
+UNIVERSITY OF TORONTO,Canada,5,83,North America,Employer Reputation,94
+UNIVERSITY OF TORONTO,Canada,5,83,North America,Faculty Student,74.8
+UNIVERSITY OF TORONTO,Canada,5,83,North America,International Faculty,96.4
+UNIVERSITY OF TORONTO,Canada,5,83,North America,International Students,92.9
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE,Chile,5,52.9,South America,Academic Reputation,83
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE,Chile,5,52.9,South America,Citations per Faculty,12.1
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE,Chile,5,52.9,South America,Employer Reputation,93.4
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE,Chile,5,52.9,South America,Faculty Student,32.6
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE,Chile,5,52.9,South America,International Faculty,20
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE,Chile,5,52.9,South America,International Students,5.1
+TSINGHUA UNIVERSITY,China,5,87.2,Asia,Academic Reputation,97
+TSINGHUA UNIVERSITY,China,5,87.2,Asia,Citations per Faculty,77.4
+TSINGHUA UNIVERSITY,China,5,87.2,Asia,Employer Reputation,99.4
+TSINGHUA UNIVERSITY,China,5,87.2,Asia,Faculty Student,91.5
+TSINGHUA UNIVERSITY,China,5,87.2,Asia,International Faculty,60.6
+TSINGHUA UNIVERSITY,China,5,87.2,Asia,International Students,29.2
+UNIVERSITY OF COPENHAGEN,Denmark,5,63.5,Europe,Academic Reputation,67.2
+UNIVERSITY OF COPENHAGEN,Denmark,5,63.5,Europe,Citations per Faculty,28.8
+UNIVERSITY OF COPENHAGEN,Denmark,5,63.5,Europe,Employer Reputation,47
+UNIVERSITY OF COPENHAGEN,Denmark,5,63.5,Europe,Faculty Student,99.9
+UNIVERSITY OF COPENHAGEN,Denmark,5,63.5,Europe,International Faculty,91.6
+UNIVERSITY OF COPENHAGEN,Denmark,5,63.5,Europe,International Students,28
+UNIVERSITY OF HELSINKI,Finland,5,57.9,Europe,Academic Reputation,61.7
+UNIVERSITY OF HELSINKI,Finland,5,57.9,Europe,Citations per Faculty,51
+UNIVERSITY OF HELSINKI,Finland,5,57.9,Europe,Employer Reputation,46.9
+UNIVERSITY OF HELSINKI,Finland,5,57.9,Europe,Faculty Student,74.8
+UNIVERSITY OF HELSINKI,Finland,5,57.9,Europe,International Faculty,56.7
+UNIVERSITY OF HELSINKI,Finland,5,57.9,Europe,International Students,8.2
+PSL UNIVERSITY,France,1,75.1,Europe,Academic Reputation,80.3
+PSL UNIVERSITY,France,1,75.1,Europe,Citations per Faculty,26.6
+PSL UNIVERSITY,France,1,75.1,Europe,Employer Reputation,99.3
+PSL UNIVERSITY,France,1,75.1,Europe,Faculty Student,99.9
+PSL UNIVERSITY,France,1,75.1,Europe,International Faculty,67.7
+PSL UNIVERSITY,France,1,75.1,Europe,International Students,84.2
+TECHNISCHE UNIVERSITÄT MÜNCHEN,Germany,5,70,Europe,Academic Reputation,78.1
+TECHNISCHE UNIVERSITÄT MÜNCHEN,Germany,5,70,Europe,Citations per Faculty,23.9
+TECHNISCHE UNIVERSITÄT MÜNCHEN,Germany,5,70,Europe,Employer Reputation,98.3
+TECHNISCHE UNIVERSITÄT MÜNCHEN,Germany,5,70,Europe,Faculty Student,88.8
+TECHNISCHE UNIVERSITÄT MÜNCHEN,Germany,5,70,Europe,International Faculty,59.5
+TECHNISCHE UNIVERSITÄT MÜNCHEN,Germany,5,70,Europe,International Students,63.9
+UNIVERSITY OF HONG KONG (HKU),Hong Kong,5,84.3,Asia,Academic Reputation,96.7
+UNIVERSITY OF HONG KONG (HKU),Hong Kong,5,84.3,Asia,Citations per Faculty,47.1
+UNIVERSITY OF HONG KONG (HKU),Hong Kong,5,84.3,Asia,Employer Reputation,83.7
+UNIVERSITY OF HONG KONG (HKU),Hong Kong,5,84.3,Asia,Faculty Student,88.1
+UNIVERSITY OF HONG KONG (HKU),Hong Kong,5,84.3,Asia,International Faculty,100
+UNIVERSITY OF HONG KONG (HKU),Hong Kong,5,84.3,Asia,International Students,99.4
+INDIAN INSTITUTE OF TECHNOLOGY BOMBAY (IITB),India,4,48.2,Asia,Academic Reputation,52.5
+INDIAN INSTITUTE OF TECHNOLOGY BOMBAY (IITB),India,4,48.2,Asia,Citations per Faculty,54.1
+INDIAN INSTITUTE OF TECHNOLOGY BOMBAY (IITB),India,4,48.2,Asia,Employer Reputation,72.9
+INDIAN INSTITUTE OF TECHNOLOGY BOMBAY (IITB),India,4,48.2,Asia,Faculty Student,43.3
+INDIAN INSTITUTE OF TECHNOLOGY BOMBAY (IITB),India,4,48.2,Asia,International Faculty,4.4
+INDIAN INSTITUTE OF TECHNOLOGY BOMBAY (IITB),India,4,48.2,Asia,International Students,1.8
+TRINITY COLLEGE DUBLIN (TCD),Ireland,5,59.3,Europe,Academic Reputation,58.8
+TRINITY COLLEGE DUBLIN (TCD),Ireland,5,59.3,Europe,Citations per Faculty,63.1
+TRINITY COLLEGE DUBLIN (TCD),Ireland,5,59.3,Europe,Employer Reputation,55.6
+TRINITY COLLEGE DUBLIN (TCD),Ireland,5,59.3,Europe,Faculty Student,39.9
+TRINITY COLLEGE DUBLIN (TCD),Ireland,5,59.3,Europe,International Faculty,98.7
+TRINITY COLLEGE DUBLIN (TCD),Ireland,5,59.3,Europe,International Students,91.2
+HEBREW UNIVERSITY OF JERUSALEM,Israel,5,49.1,Asia,Academic Reputation,40.1
+HEBREW UNIVERSITY OF JERUSALEM,Israel,5,49.1,Asia,Citations per Faculty,46.8
+HEBREW UNIVERSITY OF JERUSALEM,Israel,5,49.1,Asia,Employer Reputation,31.9
+HEBREW UNIVERSITY OF JERUSALEM,Israel,5,49.1,Asia,Faculty Student,81.8
+HEBREW UNIVERSITY OF JERUSALEM,Israel,5,49.1,Asia,International Faculty,67.1
+HEBREW UNIVERSITY OF JERUSALEM,Israel,5,49.1,Asia,International Students,13.8
+POLITECNICO DI MILANO,Italy,5,48.7,Europe,Academic Reputation,57.1
+POLITECNICO DI MILANO,Italy,5,48.7,Europe,Citations per Faculty,55.8
+POLITECNICO DI MILANO,Italy,5,48.7,Europe,Employer Reputation,85.9
+POLITECNICO DI MILANO,Italy,5,48.7,Europe,Faculty Student,7.5
+POLITECNICO DI MILANO,Italy,5,48.7,Europe,International Faculty,45.8
+POLITECNICO DI MILANO,Italy,5,48.7,Europe,International Students,44.3
+THE UNIVERSITY OF TOKYO,Japan,5,85.3,Asia,Academic Reputation,100
+THE UNIVERSITY OF TOKYO,Japan,5,85.3,Asia,Citations per Faculty,72.2
+THE UNIVERSITY OF TOKYO,Japan,5,85.3,Asia,Employer Reputation,99.5
+THE UNIVERSITY OF TOKYO,Japan,5,85.3,Asia,Faculty Student,94.2
+THE UNIVERSITY OF TOKYO,Japan,5,85.3,Asia,International Faculty,12.3
+THE UNIVERSITY OF TOKYO,Japan,5,85.3,Asia,International Students,25.5
+UNIVERSITI MALAYA (UM),Malaysia,5,62.6,Asia,Academic Reputation,63.9
+UNIVERSITI MALAYA (UM),Malaysia,5,62.6,Asia,Citations per Faculty,32.6
+UNIVERSITI MALAYA (UM),Malaysia,5,62.6,Asia,Employer Reputation,57.7
+UNIVERSITI MALAYA (UM),Malaysia,5,62.6,Asia,Faculty Student,93.5
+UNIVERSITI MALAYA (UM),Malaysia,5,62.6,Asia,International Faculty,55.9
+UNIVERSITI MALAYA (UM),Malaysia,5,62.6,Asia,International Students,61.2
+UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO (UNAM),Mexico,5,56.8,North America,Academic Reputation,89.3
+UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO (UNAM),Mexico,5,56.8,North America,Citations per Faculty,4
+UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO (UNAM),Mexico,5,56.8,North America,Employer Reputation,87.1
+UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO (UNAM),Mexico,5,56.8,North America,Faculty Student,50.8
+UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO (UNAM),Mexico,5,56.8,North America,International Faculty,20.4
+UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO (UNAM),Mexico,5,56.8,North America,International Students,3.9
+DELFT UNIVERSITY OF TECHNOLOGY,Netherlands,5,73.3,Europe,Academic Reputation,69.3
+DELFT UNIVERSITY OF TECHNOLOGY,Netherlands,5,73.3,Europe,Citations per Faculty,90.2
+DELFT UNIVERSITY OF TECHNOLOGY,Netherlands,5,73.3,Europe,Employer Reputation,83.9
+DELFT UNIVERSITY OF TECHNOLOGY,Netherlands,5,73.3,Europe,Faculty Student,48.5
+DELFT UNIVERSITY OF TECHNOLOGY,Netherlands,5,73.3,Europe,International Faculty,98.6
+DELFT UNIVERSITY OF TECHNOLOGY,Netherlands,5,73.3,Europe,International Students,86.7
+THE UNIVERSITY OF AUCKLAND,New Zealand,5,62.8,Oceania,Academic Reputation,82.7
+THE UNIVERSITY OF AUCKLAND,New Zealand,5,62.8,Oceania,Citations per Faculty,52.3
+THE UNIVERSITY OF AUCKLAND,New Zealand,5,62.8,Oceania,Employer Reputation,59.4
+THE UNIVERSITY OF AUCKLAND,New Zealand,5,62.8,Oceania,Faculty Student,21.3
+THE UNIVERSITY OF AUCKLAND,New Zealand,5,62.8,Oceania,International Faculty,87
+THE UNIVERSITY OF AUCKLAND,New Zealand,5,62.8,Oceania,International Students,91.3
+UNIVERSITY OF OSLO,Norway,5,51.9,Europe,Academic Reputation,49.2
+UNIVERSITY OF OSLO,Norway,5,51.9,Europe,Citations per Faculty,47.8
+UNIVERSITY OF OSLO,Norway,5,51.9,Europe,Employer Reputation,26.1
+UNIVERSITY OF OSLO,Norway,5,51.9,Europe,Faculty Student,69.9
+UNIVERSITY OF OSLO,Norway,5,51.9,Europe,International Faculty,82.6
+UNIVERSITY OF OSLO,Norway,5,51.9,Europe,International Students,36.5
+LOMONOSOV MOSCOW STATE UNIVERSITY,Russia,5,62.3,Asia,Academic Reputation,71.3
+LOMONOSOV MOSCOW STATE UNIVERSITY,Russia,5,62.3,Asia,Citations per Faculty,6.7
+LOMONOSOV MOSCOW STATE UNIVERSITY,Russia,5,62.3,Asia,Employer Reputation,78.2
+LOMONOSOV MOSCOW STATE UNIVERSITY,Russia,5,62.3,Asia,Faculty Student,99.7
+LOMONOSOV MOSCOW STATE UNIVERSITY,Russia,5,62.3,Asia,International Faculty,16.6
+LOMONOSOV MOSCOW STATE UNIVERSITY,Russia,5,62.3,Asia,International Students,73.1
+KING FAHD UNIVERSITY OF PETROLEUM & MINERALS (KFUPM),Saudi Arabia,4,45.1,Asia,Academic Reputation,24.4
+KING FAHD UNIVERSITY OF PETROLEUM & MINERALS (KFUPM),Saudi Arabia,4,45.1,Asia,Citations per Faculty,33.6
+KING FAHD UNIVERSITY OF PETROLEUM & MINERALS (KFUPM),Saudi Arabia,4,45.1,Asia,Employer Reputation,29.7
+KING FAHD UNIVERSITY OF PETROLEUM & MINERALS (KFUPM),Saudi Arabia,4,45.1,Asia,Faculty Student,93.9
+KING FAHD UNIVERSITY OF PETROLEUM & MINERALS (KFUPM),Saudi Arabia,4,45.1,Asia,International Faculty,100
+KING FAHD UNIVERSITY OF PETROLEUM & MINERALS (KFUPM),Saudi Arabia,4,45.1,Asia,International Students,35.9
+NATIONAL UNIVERSITY OF SINGAPORE (NUS),Singapore,5,92,Asia,Academic Reputation,99.8
+NATIONAL UNIVERSITY OF SINGAPORE (NUS),Singapore,5,92,Asia,Citations per Faculty,72.8
+NATIONAL UNIVERSITY OF SINGAPORE (NUS),Singapore,5,92,Asia,Employer Reputation,99.1
+NATIONAL UNIVERSITY OF SINGAPORE (NUS),Singapore,5,92,Asia,Faculty Student,91.8
+NATIONAL UNIVERSITY OF SINGAPORE (NUS),Singapore,5,92,Asia,International Faculty,100
+NATIONAL UNIVERSITY OF SINGAPORE (NUS),Singapore,5,92,Asia,International Students,80.7
+UNIVERSITY OF CAPE TOWN,South Africa,5,43.9,Africa,Academic Reputation,45.6
+UNIVERSITY OF CAPE TOWN,South Africa,5,43.9,Africa,Citations per Faculty,43.8
+UNIVERSITY OF CAPE TOWN,South Africa,5,43.9,Africa,Employer Reputation,47.7
+UNIVERSITY OF CAPE TOWN,South Africa,5,43.9,Africa,Faculty Student,31
+UNIVERSITY OF CAPE TOWN,South Africa,5,43.9,Africa,International Faculty,72.1
+UNIVERSITY OF CAPE TOWN,South Africa,5,43.9,Africa,International Students,44.8
+SEOUL NATIONAL UNIVERSITY (SNU),South Korea,4,80.6,Asia,Academic Reputation,96.2
+SEOUL NATIONAL UNIVERSITY (SNU),South Korea,4,80.6,Asia,Citations per Faculty,66.5
+SEOUL NATIONAL UNIVERSITY (SNU),South Korea,4,80.6,Asia,Employer Reputation,92.7
+SEOUL NATIONAL UNIVERSITY (SNU),South Korea,4,80.6,Asia,Faculty Student,87.7
+SEOUL NATIONAL UNIVERSITY (SNU),South Korea,4,80.6,Asia,International Faculty,22.1
+SEOUL NATIONAL UNIVERSITY (SNU),South Korea,4,80.6,Asia,International Students,14
+UNIVERSIDAD AUTÓNOMA DE MADRID,Spain,4,48.5,Europe,Academic Reputation,63.2
+UNIVERSIDAD AUTÓNOMA DE MADRID,Spain,4,48.5,Europe,Citations per Faculty,23.7
+UNIVERSIDAD AUTÓNOMA DE MADRID,Spain,4,48.5,Europe,Employer Reputation,69
+UNIVERSIDAD AUTÓNOMA DE MADRID,Spain,4,48.5,Europe,Faculty Student,47.8
+UNIVERSIDAD AUTÓNOMA DE MADRID,Spain,4,48.5,Europe,International Faculty,11.6
+UNIVERSIDAD AUTÓNOMA DE MADRID,Spain,4,48.5,Europe,International Students,25.7
+LUND UNIVERSITY,Sweden,5,62.1,Europe,Academic Reputation,67.2
+LUND UNIVERSITY,Sweden,5,62.1,Europe,Citations per Faculty,51.2
+LUND UNIVERSITY,Sweden,5,62.1,Europe,Employer Reputation,52.6
+LUND UNIVERSITY,Sweden,5,62.1,Europe,Faculty Student,57.4
+LUND UNIVERSITY,Sweden,5,62.1,Europe,International Faculty,89.6
+LUND UNIVERSITY,Sweden,5,62.1,Europe,International Students,71.8
+ETH ZURICH (SWISS FEDERAL INSTITUTE OF TECHNOLOGY),Switzerland,5,95.3,Europe,Academic Reputation,98.2
+ETH ZURICH (SWISS FEDERAL INSTITUTE OF TECHNOLOGY),Switzerland,5,95.3,Europe,Citations per Faculty,98.7
+ETH ZURICH (SWISS FEDERAL INSTITUTE OF TECHNOLOGY),Switzerland,5,95.3,Europe,Employer Reputation,96.2
+ETH ZURICH (SWISS FEDERAL INSTITUTE OF TECHNOLOGY),Switzerland,5,95.3,Europe,Faculty Student,82.4
+ETH ZURICH (SWISS FEDERAL INSTITUTE OF TECHNOLOGY),Switzerland,5,95.3,Europe,International Faculty,100
+ETH ZURICH (SWISS FEDERAL INSTITUTE OF TECHNOLOGY),Switzerland,5,95.3,Europe,International Students,98.6
+NATIONAL TAIWAN UNIVERSITY (NTU),Taiwan,4,66.3,Asia,Academic Reputation,88.6
+NATIONAL TAIWAN UNIVERSITY (NTU),Taiwan,4,66.3,Asia,Citations per Faculty,68.7
+NATIONAL TAIWAN UNIVERSITY (NTU),Taiwan,4,66.3,Asia,Employer Reputation,70.7
+NATIONAL TAIWAN UNIVERSITY (NTU),Taiwan,4,66.3,Asia,Faculty Student,40.2
+NATIONAL TAIWAN UNIVERSITY (NTU),Taiwan,4,66.3,Asia,International Faculty,16.6
+NATIONAL TAIWAN UNIVERSITY (NTU),Taiwan,4,66.3,Asia,International Students,19.8
+UNIVERSITY OF OXFORD,United Kingdom,5,96.8,Europe,Academic Reputation,100
+UNIVERSITY OF OXFORD,United Kingdom,5,96.8,Europe,Citations per Faculty,83
+UNIVERSITY OF OXFORD,United Kingdom,5,96.8,Europe,Employer Reputation,100
+UNIVERSITY OF OXFORD,United Kingdom,5,96.8,Europe,Faculty Student,100
+UNIVERSITY OF OXFORD,United Kingdom,5,96.8,Europe,International Faculty,99.6
+UNIVERSITY OF OXFORD,United Kingdom,5,96.8,Europe,International Students,98.8
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT),United States,5,100,North America,Academic Reputation,100
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT),United States,5,100,North America,Citations per Faculty,99.8
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT),United States,5,100,North America,Employer Reputation,100
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT),United States,5,100,North America,Faculty Student,100
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT),United States,5,100,North America,International Faculty,100
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY (MIT),United States,5,100,North America,International Students,95.5

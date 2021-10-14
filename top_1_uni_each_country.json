@@ -1,0 +1,46 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 500,
+    "title": {
+      "text":"Scores of top 1 University in each country",
+      "fontSize": 18
+    },
+    "data": {"url": "data/2019-TOP1-of-each-Country.csv"},
+    "transform": [{
+        "calculate": "if(datum.Pivot_Field_Names === 'Academic Reputation', 0, if(datum.Pivot_Field_Names === 'Employer Reputation', 1, 2))",
+        "as": "siteOrder"
+      }],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Country",
+        "type": "nominal",
+        "title": "Country",
+        "axis": {
+            "titleFontSize": 16,
+            "labelFontSize": 13
+          }
+      },
+      "y": {
+        "aggregate": "sum",
+        "title":"Scores",
+        "type": "quantitative",
+        "field": "Pivot_Field_Values",
+        "axis": {
+            "titleFontSize": 16,
+            "labelFontSize": 13
+          }
+      },
+      "order": {"field": "siteOrder"},
+      "color": {
+        "field": "Pivot_Field_Names",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Academic Reputation", "Citations per Faculty", "Employer Reputation", "Faculty Student", "International Faculty","International Students"]
+        },
+        "title": "Different scores"
+      }
+    }
+  }
+  

@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 500,
+    "title": {
+      "text":"Rank changes of Top10 University in 2017 over 5 years",
+      "fontSize": 16
+    },
+    "data": {"url": "data/2017-2021-top-10.csv"
+    },
+    "transform": [{
+      "sort": [
+        {"field": "Pivot_Field_Names", "order": "descending"},
+        {"field": "Pivot_Field_Values", "order": "descending"}
+      ]
+    }],
+    "mark": {"type": "line", "orient": "vertical"},
+    "encoding": {
+      "x": {
+          "field": "Pivot_Field_Names", 
+          "type": "ordinal",
+          "title":"Year",
+          "axis":{
+            "labelFontSize":13,
+            "titleFontSize":14,
+            "labelAngle":360
+          }
+        },
+      "y": {
+          "field": "Pivot_Field_Values", 
+          "type": "ordinal", 
+          "title":"Rank",
+          "scale":{
+              "domain": [1,2,3,4,5,6,7,8,9,10]
+            },
+          "axis":{
+              "labelFontSize":13,
+              "titleFontSize":14
+            }
+        },
+      "color": {
+        "field": "Institution_Name", "type": "nominal"
+      }
+    }
+  }

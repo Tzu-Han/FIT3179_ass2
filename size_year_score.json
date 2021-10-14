@@ -1,0 +1,162 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 1000,
+    "title": {
+        "text":"Correlation of class size and year and Overall scores",
+        "fontSize": 16
+      },
+    "data": {
+      "url": "data/2019-QS-World-University-Rankings.csv"
+    },
+    "params": [
+        {
+            "name": "Classification",
+            "bind": {
+              "input": "select",
+              "options": [
+                null,
+                "S",
+                "M",
+                "L",
+                "XL"
+              ],
+              "labels": [
+                "Show All",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ],
+              "name": "Classification Selection: ","debounce": 0
+            }
+          },
+        {
+          "name": "Continent_selection",
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "labels": [
+              "Show All",
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "name": "Continent Selection: "
+          }
+        }
+      ],
+      "transform": [
+        {
+            "filter": "Classification == null || datum.Classification == Classification"
+        },
+        {
+          "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Institution_Age",
+          "type": "ordinal",
+          "title": "Institution Age",
+          "axis":{
+              "labelAngle":360,
+              "titleFontSize": 16,
+              "labelFontSize": 13
+            }
+        },
+        "y": {
+          "field": "Overall_Score",
+          "type": "quantitative",
+          "title": "Overall Score",
+          "axis": {
+              "tickCount": 11,
+              "titleFontSize": 16,
+              "labelFontSize": 13
+            },
+          "scale":{"domain":[40,100]}
+        }
+      },
+      "layer": [
+        {
+          "selection": {
+            "continent_highlight": {
+              "type": "multi",
+              "fields": ["Continent"],
+              "bind": "legend"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "shape": {"field": "Classification", "type": "nominal"},
+            "size":{"value":100},              
+            "color": {
+              "field": "Continent",
+              "type": "nominal",
+              "scale": {
+                "domain": [
+                  "North America",
+                  "South America",
+                  "Europe",
+                  "Africa",
+                  "Asia",
+                  "Oceania"
+                ],
+                "range": [
+                  "#e41a1c",
+                  "#984ea3",
+                  "#ff7f00",
+                  "#a6cee3",
+                  "#377eb8",
+                  "#a65628"
+                ]
+              }
+            },
+            "opacity": {
+              "condition": {"selection": "continent_highlight", "value": 0.8},
+              "value": 0.2
+            },
+            "tooltip": [
+              {"field": "Institution_Name", "type": "nominal"},
+              {"field": "Country", "type": "nominal"},
+              {"field": "Continent", "type": "nominal"},
+              {"field": "Classification", "type": "nominal"},
+              {"field": "Institution_Age", "type": "nominal", "format": ","},
+              {"field": "Overall_Score", "type": "quantitative", "format": ","}
+            ]
+          }
+        },
+        {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": -6,
+              "fontSize": 11.5,
+              "fontStyle": "italic"
+            },
+            "encoding": {
+              "text": {"field": "Institution_Name", "type": "nominal"},
+              "color": {"value": "black"},
+              "opacity": {
+                "condition": {
+                  "test": "datum['Overall_Score'] == 100 || datum['Institution_Name'] == 'STOCKHOLM UNIVERSITY' || datum['Institution_Name'] == 'UNIVERSITI KEBANGSAAN MALAYSIA (UKM)' || datum['Overall_Score'] == 91.3 || datum['Overall_Score'] == 84.4",
+                  "value": 1
+                },
+                "value": 0
+              }
+            }
+          }
+        ]
+      }

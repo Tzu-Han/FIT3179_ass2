@@ -128,12 +128,12 @@
               "value": 0.2
             },
             "tooltip": [
-              {"field": "Institution_Name", "type": "nominal"},
+              {"field": "Institution_Name", "type": "nominal", "title": "Institution name"},
               {"field": "Country", "type": "nominal"},
               {"field": "Continent", "type": "nominal"},
               {"field": "Classification", "type": "nominal"},
-              {"field": "Institution_Age", "type": "nominal", "format": ","},
-              {"field": "Overall_Score", "type": "quantitative", "format": ","}
+              {"field": "Institution_Age", "type": "nominal", "format": ",", "title": "Institution age"},
+              {"field": "Overall_Score", "type": "quantitative", "format": ",", "title": "Overall score"}
             ]
           }
         },

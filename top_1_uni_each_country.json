@@ -1,13 +1,44 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 500,
+    "width": 700,
+    "height": 600,
     "title": {
       "text":"Scores of top 1 University in each country",
-      "fontSize": 18
+      "fontSize": 30
     },
     "data": {"url": "data/2019-TOP1-of-each-Country.csv"},
-    "transform": [{
+    "params": [         
+      {
+        "name": "Scores_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "Academic Reputation",
+            "Citations per Faculty",
+            "Employer Reputation",
+            "Faculty Student",
+            "International Faculty",
+            "International Students"
+          ],
+          "labels": [
+            "Show All",
+            "Academic Reputation",
+            "Citations per Faculty",
+            "Employer Reputation",
+            "Faculty Student",
+            "International Faculty",
+            "International Students"
+          ],
+          "name": "Scores Selection: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "Scores_selection == null || datum.Pivot_Field_Names == Scores_selection"
+      },
+      {
         "calculate": "if(datum.Pivot_Field_Names === 'Academic Reputation', 0, if(datum.Pivot_Field_Names === 'Employer Reputation', 1, 2))",
         "as": "siteOrder"
       }],
@@ -18,8 +49,8 @@
         "type": "nominal",
         "title": "Country",
         "axis": {
-            "titleFontSize": 16,
-            "labelFontSize": 13
+            "titleFontSize": 20,
+            "labelFontSize": 19
           }
       },
       "y": {
@@ -28,8 +59,8 @@
         "type": "quantitative",
         "field": "Pivot_Field_Values",
         "axis": {
-            "titleFontSize": 16,
-            "labelFontSize": 13
+            "titleFontSize": 20,
+            "labelFontSize": 19
           }
       },
       "order": {"field": "siteOrder"},
@@ -39,8 +70,13 @@
         "scale": {
           "domain": ["Academic Reputation", "Citations per Faculty", "Employer Reputation", "Faculty Student", "International Faculty","International Students"]
         },
-        "title": "Different scores"
-      }
+        "title": "Different scores",
+        "legend": {"labelFontSize":19, "titleFontSize":20, "labelLimit":200, "orient": "left"}
+      },
+      "tooltip": [
+        {"field": "Pivot_Field_Names", "type": "nominal", "title": "Score type"},
+        {"field": "Pivot_Field_Values", "type": "quantitative", "title": "Score"}
+      ]
     }
   }
   

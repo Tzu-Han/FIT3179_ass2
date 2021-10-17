@@ -2,10 +2,12 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text":"Numbers of top 200 university in each country",
-      "fontSize": 18
+      "align": "center",
+      "dx": 45,
+      "fontSize": 30
     },
-    "width": 1035,
-    "height": 500,
+    "width": 1660,
+    "height": 800,
     "data": {
       "url": "ne_110m_admin_0_countries.topojson.json",
       "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
@@ -49,7 +51,8 @@
         "domain": [5, 15,30,50],
         "range":[ "#C3E79C", "#87CF3A","#68A428","#49731C", "#2A4210"],
         "scheme": "yellowgreen"
-        }
+        },
+        "legend": {"labelFontSize":19, "titleFontSize":20}
       },
       "tooltip": [
         {"field": "properties.NAME", "type": "nominal", "title": "Country"},

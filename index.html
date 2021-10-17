@@ -1,33 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="style.css">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-<script src="vega_lie_vis.js"></script>
+    <script src="vega_lie_vis.js"></script>
 
 </head>
 
-<body>
-    <h1>TOP 200 University Analysis</h1>
-    <div class="outer">
-        <div class = inner id="rank_line">
-        </div>
-        <div class = inner id="choropleth_map">
-        </div>
-        <div class = inner id="size_age_bubble_plot">
-        </div>
-        <div id="stacked_bar">
-        </div>
-        <div id="GDP_bubble_plot">
-        </div>
-        <div id="rank_line">
+<body background-color="blue">
+
+    <div class="container">
+        <div class="container2">
+            <h1 class="center">TOP 200 Universities Analysis</h1>
+
+            <p>This is a report analyzing 2019 QS university ranking and only concentrates at top 200 universities
+                ranked by QS ranking. We are highly interested in finding a relationship in these top universities and
+                understands more about these universities.</p><br>
+            <div class="middle">
+                <div id="choropleth_map">
+                </div>
+            </div>
+            <div class="left">
+                <div id="GDP_bubble_plot">
+                </div>
+                <p>
+                    <span class='title_text'>Does <span class='GDP_text'>GDP per captia</span> correlates to university
+                        ranking?<br> Does <span class='freedom_text'>freedom to
+                            make choices score</span>
+                        correlates
+                        to university ranking?</span><br><br>
+                    This visualisation show correlation between<span class='GDP_text'> GDP per capita</span>, <span
+                        class='freedom_text'>freedom to make choices score</span>, and
+                    the number of top 200 universities in each country. In the graph,
+                    we can see the countries which have
+                    more than 5 top 200 universities are mostly having <span
+                        class='GDP_text'>GDP per capita</span> above 1.3. Moreover, the countries
+                    which have more than 10 top 200 universities are all having <span
+                        class='freedom_text'>freedom scores</span> between 0.4 and 0.5 which
+                    is very interesting.
+                    <br>
+                    Overall, we can conclude that the countries having <span class='GDP_text'>GDP per capita</span>
+                    higher than 1.3 and <span class='freedom_text'>freedom to make life
+                        choices score</span> between 0.4 and 0.5 is more likely to have a University that is in top 200.
+
+                </p>
+            </div>
+            <div class="right">
+                <p>
+                    <span class='title_text'>How does each country's toppest university perform?</span><br><br>
+                    This visualisation shows each country's toppest university score distribution. We can see that in UK
+                    and USA's distribution, the major scores difference is at <span class ='scores_text'>citations per faculty</span>. UK has fewer
+                    citations than USA's toppest university. This visualisation clearly demonstrates each countries top
+                    1 university's weakness and strength. Even though they are all top 1 universities in each country,
+                    there may have some type of score very close to zero. It directly shows the gap between each
+                    country's university level.
+                </p>
+                <div id="stacked_bar">
+                </div>
+            </div>
+            <div class="left">
+                <div id="rank_line">
+                </div>
+                <p>
+                    <span class='title_text'>How does the rank changes in top 10 universities?</span><br><br>
+                    The visualisation shows the ranking changes over 4 years on top 10 universities. It is so
+                    surprising that ranks 1, 2, 3 remain no changes over 4 years. Plus, the top 10 universities list
+                    remains no changes as well, there is no new university that gets in top 10 in these 4 years. These
+                    facts show that it is extremely difficult to become a top 10 university, these universities are
+                    the pride of the world's education.
+                    <br>
+                    There are several interesting points in this visualisation. First, the University of Cambridge
+                    ranking
+                    is declining annually for 4 years from rank 4 to rank 7. Second, Zth Zurich climbed from rank 10 to
+                    rank 6 for only 3 years. Although it seems a lot different between rank 10 and 6, there are over
+                    25,000 universities in the world, rank 10 to rank 6 is still the top 10 of 25000+ universities.
+
+
+                </p>
+            </div>
         </div>
     </div>
 
